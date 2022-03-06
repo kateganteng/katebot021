@@ -9,28 +9,28 @@ const groups = chats.filter(v => v.jid.endsWith('g.us'))
 const defaultMenu = {
   before: `
 ┏━━〔 ${namabot} 〕━⬣
-┃⬡ Hai, %name!
+┃• Hai, %name!
 ┃
-┃⬡ Tersisa *%limit Limit*
-┃⬡ Role *%role*
-┃⬡ Level *%level (%exp / %maxexp)* 
-┃⬡ [%xp4levelup]
-┃⬡ %totalexp XP secara Total
+┃• Tersisa *%limit Limit*
+┃• Role *%role*
+┃• Level *%level (%exp / %maxexp)* 
+┃• [%xp4levelup]
+┃• %totalexp XP secara Total
 ┃ 
-┃⬡ Hari : *%week %weton* 
-┃⬡ Tanggal : *%date*
-┃⬡ Tanggal Islam : 
-┃⬡ *%dateIslamic*
-┃⬡ Waktu: *%time*
+┃• Hari : *%week %weton* 
+┃• Tanggal : *%date*
+┃• Tanggal Islam : 
+┃• *%dateIslamic*
+┃• Waktu: *%time*
 ┃
-┃⬡ Uptime: *%uptime (%muptime)*
-┃⬡ Database: %rtotalreg dari %totalreg
-┃⬡ Github:
-┃⬡ https://github.com/AlyaaXd/rfkbot
+┃• Uptime: *%uptime (%muptime)*
+┃• Database: %rtotalreg dari %totalreg
+┃• Instagram:
+┃• https://instagram.com/mursid.st
 ┃
 ┗━━━━━━⬣`.trimStart(),
   header: '┏━━〔 %category 〕━⬣',
-  body: '┃⬡%cmd %islimit %isPremium',
+  body: '┃•%cmd %islimit %isPremium',
   footer: '┗━━⬣\n',
   after: `
 *%npmname@^%version*
@@ -240,8 +240,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃⬡ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Chat Terbanned
 ┃⬡ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Pengguna Terbanned
 ┃
-┃⬡ Script by Alyaa
-┃⬡ Github Name : AlyaaXd
+┃⬡ Script By Mursid
+┃⬡ Github Name : Katebot021
 ┃⬡ Yt : AlyaaXd
 ┃⬡ Run bot : Heroku
 ┃⬡ Tipe SC rfkbot
