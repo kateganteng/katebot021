@@ -25,6 +25,9 @@ const defaultMenu = {
 ┃
 ┃• Uptime: *%uptime (%muptime)*
 ┃• Database: %rtotalreg dari %totalreg
+┃• YT OWNER:
+┃• https://youtube.com/c/KATEARRAWAWIE
+┃
 ┃• Instagram:
 ┃• https://instagram.com/mursid.st
 ┃
@@ -242,11 +245,11 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃
 ┃⬡ Script By Mursid
 ┃⬡ Github Name : Katebot021
-┃⬡ Yt : AlyaaXd
+┃⬡ Yt : https://youtube.com/c/KATEARRAWAWIE
 ┃⬡ Run bot : Heroku
 ┃⬡ Tipe SC rfkbot
 ┗━━━━━━━━⬣`.trim(),
-          "buttonText": "Klik Disini",
+          "buttonText": "MENU KATEBOT",
           "listType": "SINGLE_SELECT",
           "sections": [
             {
