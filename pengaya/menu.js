@@ -249,7 +249,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 ┃⬡ Run bot : Heroku
 ┃⬡ Tipe SC rfkbot
 ┗━━━━━━━━⬣`.trim(),
-          "buttonText": "MENU KATEBOT",
+          "buttonText":"Klik Disini",
           "listType": "SINGLE_SELECT",
           "sections": [
             {
